@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_help"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:layout_marginBottom="2dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/faq"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:textAlignment="textStart"
+        app:icon="@drawable/help"
+        app:iconPadding="10dp"
+        android:textAllCaps="false"
+        android:text="FAQ"
+        android:textSize="15sp"
+        android:paddingStart="15dp"
+        tools:ignore="RtlSymmetry" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/contactus"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        app:iconPadding="10dp"
+        app:icon="@drawable/contactus"
+        android:textAlignment="textStart"
+        android:text="Contact us"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:paddingStart="15dp"
+        tools:ignore="RtlSymmetry" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Terms"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        app:iconPadding="10dp"
+        app:icon="@drawable/terms"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:text="Terms and Privecy Policy"
+        android:textSize="15sp"
+        android:paddingStart="15dp"
+        tools:ignore="RtlSymmetry" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Appinfo"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        app:iconPadding="10dp"
+        app:icon="@drawable/about"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:text="App info"
+        android:textSize="15sp"
+        android:paddingStart="15dp"
+        tools:ignore="RtlSymmetry" />
+
+</LinearLayout>
