@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragments.Pressed_item_fragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.MaterialComponents.Light.Bridge">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentScrim="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/pressed_Item_image"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:contentDescription="@string/item_image" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_title"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/Pressed_Item_titles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Tittle"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/Pressed_Item_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/Pressed_Item_title"
+                    android:background="#8DC0C0C0" />
+
+
+                <TextView
+                    android:id="@+id/Pressed_Item_models"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Pressed_Item_title"
+                    android:layout_alignParentEnd="true"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="model"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/Pressed_Item_model"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Pressed_Item_title"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Model"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/Pressed_Item_model"
+                    android:background="#8DC0C0C0" />
+
+                <TextView
+                    android:id="@+id/Pressed_Item_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Pressed_Item_model"
+                    android:layout_alignParentEnd="true"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="year"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/Pressed_Item_years"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Pressed_Item_model"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Year"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/Pressed_Item_year"
+                    android:background="#8DC0C0C0" />
+
+                <TextView
+                    android:id="@+id/Pressed_Item_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Pressed_Item_year"
+                    android:layout_alignParentEnd="true"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="price"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/Pressed_Item_price"
+                    android:background="#8DC0C0C0" />
+
+                <TextView
+                    android:id="@+id/Pressed_Item_prices"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Pressed_Item_year"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Price"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/Pressed_Item_condition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Pressed_Item_price"
+                    android:layout_alignParentEnd="true"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="condition"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/Pressed_Item_condition"
+                    android:background="#8DC0C0C0" />
+
+                <TextView
+                    android:id="@+id/Pressed_Item_conditions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Pressed_Item_price"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Condition"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/Pressed_Item_milage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Pressed_Item_condition"
+                    android:layout_alignParentEnd="true"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="milage"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/Pressed_Item_milage"
+                    android:background="#8DC0C0C0" />
+
+                <TextView
+                    android:id="@+id/Pressed_Item_milages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Pressed_Item_condition"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Mileage"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/Pressed_Item_transmition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Pressed_Item_milage"
+                    android:layout_alignParentEnd="true"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="transmition"
+                    android:textColor="@color/material_black"
+
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/Pressed_Item_transmitions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Pressed_Item_milage"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Transmission"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/Pressed_Item_transmition"
+                    android:background="#8DC0C0C0" />
+
+                <TextView
+                    android:id="@+id/bid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Pressed_Item_transmition"
+                    android:layout_alignParentEnd="true"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="highest Bid"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/bid"
+                    android:background="#8DC0C0C0" />
+
+                <TextView
+                    android:id="@+id/bids"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Pressed_Item_transmition"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Highest Bid"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/time_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bid"
+                    android:layout_alignParentEnd="true"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Time left"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/time_left"
+                    android:background="#8DC0C0C0" />
+
+                <TextView
+                    android:id="@+id/time_lefts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bid"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Time left"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/Pressed_Item_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/time_left"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Description"
+                    android:textColor="@color/material_black"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/Pressed_Item_Addbid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Add Bid" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/done_SplashScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_rawRes="@raw/done"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="false" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
