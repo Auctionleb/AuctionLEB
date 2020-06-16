@@ -14,9 +14,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.testdatabaseimport.Payment;
-import com.example.testdatabaseimport.R;
-import com.example.testdatabaseimport.SignInRegister.Login;
+import com.example.auctionleb.Payment;
+import com.example.auctionleb.R;
+import com.example.auctionleb.SignInRegister.Login;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;

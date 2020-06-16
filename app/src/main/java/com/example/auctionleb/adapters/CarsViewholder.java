@@ -7,7 +7,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.testdatabaseimport.R;
+import com.example.auctionleb.R;
+
 
 public class CarsViewholder extends RecyclerView.ViewHolder {
 

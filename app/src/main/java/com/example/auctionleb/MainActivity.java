@@ -7,10 +7,10 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.testdatabaseimport.Fragments.Favorite_fragment;
-import com.example.testdatabaseimport.Fragments.Home_fragment;
-import com.example.testdatabaseimport.Fragments.Profile_fragment;
-import com.example.testdatabaseimport.Fragments.Settings_fragment;
+import com.example.auctionleb.Fragments.Favorite_fragment;
+import com.example.auctionleb.Fragments.Home_fragment;
+import com.example.auctionleb.Fragments.Profile_fragment;
+import com.example.auctionleb.Fragments.Settings_fragment;
 import com.fxn.BubbleTabBar;
 import com.fxn.OnBubbleClickListener;
 import com.google.android.material.bottomnavigation.BottomNavigationView;

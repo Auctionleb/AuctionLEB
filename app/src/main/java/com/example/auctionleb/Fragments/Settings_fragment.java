@@ -13,7 +13,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.testdatabaseimport.R;
+import com.example.auctionleb.R;
 import com.google.android.material.button.MaterialButton;
 
 import java.util.Objects;

@@ -12,9 +12,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.testdatabaseimport.R;
-import com.example.testdatabaseimport.models.HorizontalModel;
-import com.example.testdatabaseimport.models.VerticalModel;
+
+import com.example.auctionleb.R;
+import com.example.auctionleb.models.HorizontalModel;
+import com.example.auctionleb.models.VerticalModel;
 
 import java.util.ArrayList;
 

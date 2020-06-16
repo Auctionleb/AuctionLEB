@@ -9,7 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.testdatabaseimport.R;
+import com.example.auctionleb.R;
+
 
 public class Favorite_fragment extends Fragment {
     @Nullable

@@ -9,7 +9,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.testdatabaseimport.SignInRegister.Login;
+import com.example.auctionleb.SignInRegister.Login;
+
 
 public class SplashScreen extends AppCompatActivity {
 

@@ -9,8 +9,8 @@ import android.widget.Toast;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.testdatabaseimport.R;
-import com.example.testdatabaseimport.models.HorizontalModel;
+import com.example.auctionleb.R;
+import com.example.auctionleb.models.HorizontalModel;
 
 import java.util.ArrayList;
 

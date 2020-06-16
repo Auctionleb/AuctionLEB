@@ -18,9 +18,10 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.testdatabaseimport.R;
-import com.example.testdatabaseimport.adapters.CarsViewholder;
-import com.example.testdatabaseimport.models.CarsInfo;
+
+import com.example.auctionleb.R;
+import com.example.auctionleb.adapters.CarsViewholder;
+import com.example.auctionleb.models.CarsInfo;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
