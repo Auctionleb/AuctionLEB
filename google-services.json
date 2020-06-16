@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "187093962672",
+    "firebase_url": "https://auctionlb-91401.firebaseio.com",
+    "project_id": "auctionlb-91401",
+    "storage_bucket": "auctionlb-91401.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187093962672:android:cb9981a854232525709075",
+        "android_client_info": {
+          "package_name": "com.example.auctionleb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187093962672-171fbf7abjt7vhn5v8oqkru01t4mm7ke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.auctionleb",
+            "certificate_hash": "7a6a8e75de5e6f7b8de82b0ee6abffb01b13cf00"
+          }
+        },
+        {
+          "client_id": "187093962672-nqg56uskl4hcau853uohk6e7g59ndl0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiqdziFxZvkGZuLXAM3B8C2-gISkeve10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187093962672-nqg56uskl4hcau853uohk6e7g59ndl0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
